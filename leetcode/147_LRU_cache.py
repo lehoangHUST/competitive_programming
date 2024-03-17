@@ -26,6 +26,9 @@ class LRUCache:
             self.cache[key] = value
             self.priority.append(key)
 
+
+# Case 2: Use hash table + double linked list
+
 # Your LRUCache object will be instantiated and called as such:
 obj = LRUCache(2)
 obj.put(1, 1)
